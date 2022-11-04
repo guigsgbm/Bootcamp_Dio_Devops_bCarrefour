@@ -15,4 +15,5 @@ echo "Extraindo e direcionando arquivos"
 
 unzip main.zip
 rm -r main.zip
-#cp -r . /var/www
+cd linux-site-dio-main
+cp -r . /var/www
