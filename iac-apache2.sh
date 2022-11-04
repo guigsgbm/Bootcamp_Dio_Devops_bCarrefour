@@ -8,9 +8,11 @@ apt install unzip -y
 
 echo "Baixando arquivos do código fonte"
 
+mkdir /temp & cd /temp
 wget https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip
 
 echo "Extraindo e direcionando arquivos"
 
 unzip main.zip
-cp -r . /var/www
+rm -r main.zip
+#cp -r . /var/www
