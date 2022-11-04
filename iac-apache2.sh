@@ -17,3 +17,4 @@ unzip main.zip
 rm -r main.zip
 cd linux-site-dio-main
 cp -r . /var/www
+rm -r linux-site-dio-main
